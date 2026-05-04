@@ -7,7 +7,7 @@ spring:
 
 mailchimp:
   api:
-    key: ${MAILCHIMP_API_KEY:your-api-key-here}
+    key: ${MAILCHIMP_API_KEY}
     server-prefix: ${MAILCHIMP_SERVER_PREFIX:us1}   # e.g. us1, us2, us14
     base-url: https://${mailchimp.api.server-prefix}.api.mailchimp.com/3.0
 
